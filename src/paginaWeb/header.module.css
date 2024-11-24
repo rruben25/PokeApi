@@ -1,0 +1,23 @@
+.cabecera{
+    /* background-color:red; */
+    /* background-image: url('/header.jpg'); */
+    background: linear-gradient(rgb(255, 255, 255) 25%, transparent 75%),  url('/headerpoke.jfif') no-repeat center;
+    background-color: red;
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (){
+    .cabecera{
+        background-color: greenyellow;
+        background-image: none;
+    }
+
+  }
